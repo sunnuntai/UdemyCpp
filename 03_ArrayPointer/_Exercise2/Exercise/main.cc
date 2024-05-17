@@ -7,14 +7,13 @@ std::int32_t *array_constructor(const std::int32_t value,
 
     auto *new_array = new std::int32_t[length];
 
-    for(std::size_t i = 0; i < length; i++){
+    for (std::size_t i = 0; i < length; i++)
+    {
 
         new_array[i] = value;
-
     }
 
     return new_array;
-
 }
 
 int main()

@@ -9,9 +9,9 @@ double array_sum(const double array[], const std::size_t length)
 {
 
     double sum = 0.0;
-    for (std::size_t i = 0; i < length; i++){
+    for (std::size_t i = 0; i < length; i++)
+    {
         sum += array[i];
-
     }
 
     return sum;
@@ -22,11 +22,10 @@ double array_sum(const std::array<double, 100> array)
 {
 
     double sum = 0.0;
-    for (std::size_t i = 0; i < array.size(); i++){
+    for (std::size_t i = 0; i < array.size(); i++)
+    {
         sum += array[i];
-
     }
 
     return sum;
-
 }
